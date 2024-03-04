@@ -27,15 +27,16 @@ $(window).resize(function() {
 				} else {
 					progress++;
 				}
-				$ele.html(str.substring(0, progress) + (progress & 1 ? '_' : ''));
+				$ele.html(str.substring(0, progress) + (progress < str.length ? (progress % 2 ? '|' : '&nbsp;') : ''));
 				if (progress >= str.length) {
 					clearInterval(timer);
 				}
-			}, 75);
+			}, 100);
 		});
 		return this;
 	};
 })(jQuery);
+
 
 function timeElapse(date){
 	var seconds = (+ new Date() - date.getTime()) / 1000;
