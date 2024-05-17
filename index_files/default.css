@@ -3,7 +3,7 @@ a {color:#000;font-size:14px;}
 #main{width:100%;}
 #wrap{position:relative;margin:0 auto;width:1100px;height:680px;margin-top:100px;}
 #text{width:410px;height:425px;left:60px;top:70px;position:absolute;}
-#code{display:none;font-size:20px;}
+#code{display:none;font-size:17px;}
 #clock-box {position:absolute;left:60px;top:550px;font-size:28px;display:none;}
 #clock-box a {font-size:28px;text-decoration:none;}
 #clock{margin-left:48px;}
@@ -12,5 +12,5 @@ a {color:#000;font-size:14px;}
 #error{margin:0 auto;text-align:center;margin-top:60px;display:none;}
 .hand{cursor:pointer;}
 .say{margin-left:0px;font-family:'楷体';font-weight:bold;}
-.space{margin-right:260px;}
+.space{margin-right:274px;}
 
