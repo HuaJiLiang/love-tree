@@ -13,4 +13,5 @@ a {color:#000;font-size:14px;}
 .hand{cursor:pointer;}
 .say{margin-left:0px;font-family:'楷体';font-weight:bold;}
 .space{margin-right:248px;}
+.right-align{display:block;text-align:right;}
 
